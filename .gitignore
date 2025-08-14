@@ -1,0 +1,12 @@
+env
+.env
+
+.C:\d_drive\GenAICoding\document_portal\document_portal
+document_portal\document_portal
+
+document_portal.egg-info
+venv/
+__pycache__/
+logs/
+*.pyc
+faiss_index/

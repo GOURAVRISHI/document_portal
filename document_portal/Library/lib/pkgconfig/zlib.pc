@@ -1,0 +1,13 @@
+prefix=C:/d_drive/GenAICoding/document_portal/document_portal/Library
+exec_prefix=C:/d_drive/GenAICoding/document_portal/document_portal/Library
+libdir=C:/d_drive/GenAICoding/document_portal/document_portal/Library/lib
+sharedlibdir=C:/d_drive/GenAICoding/document_portal/document_portal/Library/lib
+includedir=C:/d_drive/GenAICoding/document_portal/document_portal/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
