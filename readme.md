@@ -34,15 +34,20 @@ git clone https://github.com/GOURAVRISHI/doc_portal.git
 
 
 
-conda create -p doc_portal_new python=3.10 -y
-conda activate C:\d_drive\GenAICoding\doc_portal1\doc_portal_new
+conda create -p document_portal python=3.10 -y
+conda activate C:\d_drive\GenAICoding\document_portal\document_portal
+
+conda deactivate C:\d_drive\GenAICoding\doc_portal1\doc_portal
 
 pip install -r requirements.txt
 
-git commit -m "updating folder structure"
+pip install -e . # installing setup.py
+
+pip list # for checking packages installed with versions
+
 
 # Minimum Requirements for the Project
-## LLM Models
+1. LLM Models
 - Groq (Free)
 - OpenAI (Paid)
 - Gemini (15 Days Free Access)
@@ -50,22 +55,29 @@ git commit -m "updating folder structure"
 - Hugging Face (Free)
 - Ollama (Local Setup)
 
-## Embedding Models
+2. Embedding Models
 - OpenAI
 - Hugging Face
 - Gemini
 
-## Vector Databases
+3. Vector Databases 
 - In-Memory
 - On-Disk
 - Cloud-Based
 
-# API Keys
+API Keys
 ## GROQ API Key
 
-## Gemini API Key
+'''
+https://console.groq.com/keys
+'''
 
+# Gemini API Key
+'''
+https://aistudio.google.com/apikey
+
+https://ai.google.dev/gemini-api/docs/models
+'''
 updating gitignore file
 
-conda deactivate C:\d_drive\GenAICoding\doc_portal1\doc_portal
 
