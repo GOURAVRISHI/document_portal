@@ -10,3 +10,6 @@ __pycache__/
 logs/
 *.pyc
 faiss_index/
+
+notebook\experiments.ipynb
+.notebook\experiments.ipynb
